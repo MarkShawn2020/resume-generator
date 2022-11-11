@@ -4,3 +4,7 @@
 [submodule "tex"]
 	path = tex
 	url = ./tex
+[submodule "tex/hijiangtao"]
+	path = tex/hijiangtao
+	url = https://github.com/MarkShawn2020/my-resume-latex
+	branch = main
