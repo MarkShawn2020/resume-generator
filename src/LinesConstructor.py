@@ -43,7 +43,9 @@ class LinesConstructor:
         self._lines.insert(0, v)
         return self
 
-    def output(self, fp):
+    def output(self, fp: str):
+        if not fp.endswith('.tex'):
+            raise ValueError(f'{fp} should endswith .tex')
         with open(fp, 'w') as f:
             print(f'writing file://{fp}')
             f.write(self.docData)

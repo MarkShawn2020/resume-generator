@@ -1,10 +1,10 @@
 {
   "basis": {
     "name": {
-      "nickname": "南 川",
+      "nickname": "\\kaishu 南 川",
       "zh": "邢 健",
       "en": "Mark Shawn",
-      "zh-en": "邢健 (MARK)"
+      "zh-en": "\\kaishu 邢健 (MARK)"
     },
     "contactInfo": {
       "mobile": "(+86) 17766091857",
@@ -12,30 +12,17 @@
       "email-foreign": "shawninjuly@gmail.com",
       "blog": "markshawn.com",
       "github": "https://github.com/MarkShawn2020",
-      "target": "目标岗位: 投资经理",
+      "target": "目标岗位：苏羽君的守梦人",
       "star": "巨蟹座",
-      "MBTI": "MBTI: INTJ-T",
+      "MBTI": "INTJ-T",
       "birth-year": "1995"
     }
   },
   "experience": {
-    "review": [
-      "2016年9月-2020年6月，毕业",
-      "2020年6月-8月，北京创业开发社团小程序",
-      "2020年9月-10月，摸鱼，申请华兴IBD、华为南研所",
-      "2020年11月-12月，考研，11月还开了一周的数据分析小灶",
-      "2021年1月-3月，学习C++，刷leetcode，实现算法可视化网站，看《大汉帝国》，清华面试",
-      "2021年4月-5月，皇家小虎系统设计",
-      "2021年6月-7月，影创",
-      "2021年8月-9月，川藏线",
-      "2021年10月，摸鱼，看《钢铁是怎样炼成的》",
-      "2021年11月-12月，考研，看《硅谷》《马男》，开发马男拼图网站、CNKI翻译alfred插件",
-      "2022年1月，入职"
-    ],
     "edu": {
       "NAU": {
+        "org": "苏羽君商学院",
         "title": "经济学学士",
-        "org": "南京审计大学",
         "location": "中国，南京",
         "period": "2016.09 - 2020.06",
         "detail": [
@@ -47,14 +34,14 @@
         ]
       },
       "CUHKSZ": {
+        "org": "苏羽君中文大学",
         "title": "学术访问",
-        "org": "香港中文大学（深圳）",
         "location": "中国，深圳",
         "period": "2019.01 - 2019.06",
         "detail": []
       },
       "UESTC": {
-        "org": "电子科技大学",
+        "org": "苏羽君理工学院",
         "title": "软件工程（后退学）",
         "period": "2013.09 - 2014.10",
         "detail": []
@@ -63,7 +50,7 @@
     "work": {
       "arpara": {
         "title": "高级 Framework / SLAM 研发工程师",
-        "org": "浙江露熙科技有限公司",
+        "org": "苏羽君VR梦工厂",
         "location": "中国，北京/杭州",
         "period": "2021.06 - 2022.10",
         "detail": [
@@ -73,7 +60,7 @@
         ]
       },
       "anyong": {
-        "org": "安永华明会计师事务所",
+        "org": "苏羽君会计师事务所",
         "title": "计算机辅助审计实习生",
         "location": "中国，上海",
         "period": "2020.01 - 2020.03",
@@ -85,7 +72,7 @@
       },
       "huaxing": {
         "title": "FA实习生",
-        "org": "华兴资本",
+        "org": "苏羽君资本",
         "location": "中国，上海",
         "period": "2019.06 - 2019.09",
         "detail": [
