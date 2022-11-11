@@ -12,7 +12,7 @@ from src.SectionConstructor import SectionConstructor
 from src.LinesConstructor import LinesConstructor
 from src.settings import SECTION_NAME_MAP, OVERLOAD_DATA, RENDER_SEPARATOR_LR, \
     RENDER_SEPARATOR_L, \
-    RENDER_ITEMS, PART_SPECIAL, PART_SIMPLE_SECTIONS, PART_PERIOD_SECTIONS, PROJECT_DIR
+    RENDER_ITEMS, PART_SPECIAL, PART_SIMPLE_SECTIONS, PART_PERIOD_SECTIONS, PROJECT_DIR, TEX_SRC_DIR
 from src.utils import texNode
 
 
@@ -46,4 +46,4 @@ def generateResumeTex(fp: str):
         collector.add(item)
 
     fn = os.path.basename(fp).rsplit('.', 1)[0]
-    collector.output(os.path.join(PROJECT_DIR, f'Tex/src/{fn}.tex'))
+    collector.output(os.path.join(TEX_SRC_DIR, f'{fn}.tex'))

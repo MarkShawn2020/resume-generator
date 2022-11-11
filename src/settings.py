@@ -8,6 +8,7 @@ import os
 SRC_DIR = os.path.dirname(__file__)
 PROJECT_DIR = os.path.dirname(SRC_DIR)
 DATA_DIR = os.path.join(PROJECT_DIR, 'data')
+TEX_SRC_DIR = os.path.join(PROJECT_DIR, 'tex/hijiangtao/src')
 
 PAGE_NUMBERING_VISIBILITY = False
 LANG_ZH = 'zh'
@@ -44,7 +45,7 @@ RENDER_ITEMS = [
 OVERLOAD_DATA = {
     "basis": {
         "contactInfo": {
-            # "target": "研发"
+            "target": "期望岗位：研发"
         }
     }
 }
