@@ -6,7 +6,6 @@
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
-      <excludeFolder url="file://$MODULE_DIR$/FAANGPath Simple Template" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.9 (resume-creator)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
