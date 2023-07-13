@@ -3,7 +3,7 @@ source: own
 author: https://github.com/MarkShawn2020
 create: Nov 10, 2022, 20:50
 """
-from typing import TypedDict, Union, List
+from typing import TypedDict, Union, List, Optional
 
 from src.LinesConstructor import LinesConstructor
 from src.settings import COMMA
@@ -14,6 +14,7 @@ class PeriodItem(TypedDict):
     org: str
     title: str
     period: str
+    location: Optional[str]
 
 
 BaseDetailItem = Union[None, str, List[str]]
@@ -33,12 +34,15 @@ class SectionConstructor(LinesConstructor):
         self.add(texNode('section', name))
 
     def addPeriod(self, item: PeriodItem):
-        self.add(texNode(
-            'datedsubsection',
-            COMMA.join([
+        items = [
                 texBold(item['org']),
                 item['title'],
-            ]),
+            ]
+        if item.get('location'):
+            items.append(item['location'])
+        self.add(texNode(
+            'datedsubsection',
+            COMMA.join(items),
             texValue(item['period'])
         ))
 

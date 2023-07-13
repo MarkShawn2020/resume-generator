@@ -18,15 +18,16 @@ COMMA = '，' if LANG == LANG_ZH else ', '
 
 PART_SPECIAL = ['name', 'contactInfo']
 PART_SIMPLE_SECTIONS = ['summary']
-PART_PERIOD_SECTIONS = ['edu', 'work', 'private-projects']
+PART_PERIOD_SECTIONS = ['edu', 'work', 'private-projects', "startup"]
 
 SECTION_NAME_MAP = {
-    "edu"             : "教育经历",
-    "work"            : "工作经历",
-    "open-source"     : "开源项目",
-    "private-projects": "个人项目",
-    "headline"        : "我是",
-    "summary"         : "个人总结"
+    "edu": "教育经历",
+    "startup": "创业经历",
+    "work": "工作经历",
+    "open-source": "开源项目",
+    "private-projects": "项目经历",
+    "headline": "我是",
+    "summary": "个人总结"
 }
 
 RENDER_SEPARATOR_LR = ':'
@@ -34,18 +35,31 @@ RENDER_SEPARATOR_L = "."
 RENDER_SEPARATOR_R = ","
 
 RENDER_ITEMS = [
-    "basis.name:zh-nickname",
-    "basis.contactInfo:email-foreign,mobile,MBTI,target",
+    "basis.name:nickname",
+    "basis.contactInfo:email-cs-magic-mark,mobile,birth,target",
     "summary",
-    "experience.work:arpara,anyong,huaxing",
+    "experience.startup:CS-Magic",
+    "experience.work:arpara,huaxing",
     "experience.edu:NAU,CUHKSZ,UESTC",
-    # "experience.private-projects:docusaurus",
+    
+    "experience.private-projects:"
+    "blog,wechat-bot,hand-future,social,shokichan,ld-admin,"
+    # "image2anki,"
+    # "dnf,game,"
+    "lwl,"
+    # "wechat-moment-cover,"
+    "gopro,"
+    # "hulu,"
+    # "douban-rent,"
+    "hjxh-express,"
+    # "merge-images,"
+    "hjxh-data-center,finance-ocr,academy-station,codecraft-2020,codecraft-2019",
 ]
 
 OVERLOAD_DATA = {
     "basis": {
         "contactInfo": {
-            "target": "期望岗位：研发"
+            "target": "DIE OR BIG"
         }
     }
 }

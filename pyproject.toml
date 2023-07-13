@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "resume-creator"
+version = "0.1.0"
+description = ""
+authors = ["markshawn2020 <shawninjuly@gmail.com>"]
+readme = "README.md"
+packages = [{include = "resume_creator"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mergedeep = "^1.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
