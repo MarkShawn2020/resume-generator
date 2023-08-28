@@ -38,8 +38,8 @@ RENDER_ITEMS = [
     "basis.name:nickname",
     "basis.contactInfo:email-cs-magic-mark,mobile,birth,target",
     "summary",
-    "experience.startup:CS-Magic",
-    "experience.work:arpara,huaxing",
+    # "experience.startup:CS-Magic",
+    "experience.work:CS-Magic,arpara,huaxing",
     "experience.edu:NAU,CUHKSZ,UESTC",
     
     "experience.private-projects:"
