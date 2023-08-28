@@ -16,14 +16,7 @@ git clone --recursive https://github.com/MarkShawn2020/my-resume-generator && cd
 
 ## json --> tex --> pdf
 
-```shell
-# 1. json --> tex
-NAME=base
-python main_gen_tex.py -f data/mark/${NAME}.json
-
-# 2. tex --> pdf
-OUT=$PWD/out && mkdir -p $OUT && cd tex/hijiangtao/src && xelatex -output-directory=$OUT ${NAME}.tex && cd -
-```
+see [run_gen-pdf.sh](./run_gen-pdf.sh)
 
 ## info
 
