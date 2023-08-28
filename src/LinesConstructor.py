@@ -6,8 +6,6 @@ create: Nov 10, 2022, 20:52
 from __future__ import annotations
 from typing import List
 
-from src.settings import PAGE_NUMBERING_VISIBILITY
-
 
 class LinesConstructor:
 
@@ -49,3 +47,6 @@ class LinesConstructor:
         with open(fp, 'w') as f:
             print(f'writing file://{fp}')
             f.write(self.docData)
+
+
+PAGE_NUMBERING_VISIBILITY = False

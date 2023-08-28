@@ -6,7 +6,6 @@ create: Nov 10, 2022, 20:50
 from typing import TypedDict, Union, List, Optional
 
 from src.LinesConstructor import LinesConstructor
-from src.settings import COMMA
 from src.utils import texNode, texBold, texValue, texList
 
 
@@ -57,3 +56,9 @@ class SectionConstructor(LinesConstructor):
             self.add(texList(item))
         else:
             raise ValueError(item)
+
+
+LANG_ZH = 'zh'
+LANG_EN = 'en'
+LANG = LANG_ZH
+COMMA = '，' if LANG == LANG_ZH else ', '

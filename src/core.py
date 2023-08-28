@@ -3,15 +3,13 @@ source: own
 author: https://github.com/MarkShawn2020
 create: Nov 10, 2022, 18:40
 """
-import json
+import commentjson as json
 import os.path
 
 from mergedeep import merge
 
 from src.LinesConstructor import LinesConstructor
 from src.SectionConstructor import SectionConstructor
-from src.settings import RENDER_SEPARATOR_LR, \
-    RENDER_SEPARATOR_L
 from src.lib.path import PROJECT_DIR, TEX_SRC_DIR
 from src.utils import texNode
 
@@ -57,3 +55,8 @@ def generateResumeTex(fp: str):
     
     fn = os.path.basename(fp).rsplit('.', 1)[0]
     collector.output(os.path.join(TEX_SRC_DIR, f'{fn}.tex'))
+
+
+RENDER_SEPARATOR_LR = ':'
+RENDER_SEPARATOR_L = "."
+RENDER_SEPARATOR_R = ","
