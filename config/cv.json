@@ -1,0 +1,340 @@
+{
+  "basis": {
+    "name": {
+      "nickname": "\\kaishu 南 川",
+      "zh": "\\kaishu 邢 健",
+      "zh-nickname": "\\kaishu 邢健（南川）",
+      "en": "Mark Shawn",
+      "zh-en": "邢健 (MARK)"
+    },
+    "contactInfo": {
+      "mobile": "17766091857",
+      "email-domestic": "877210964@qq.com",
+      "email-foreign": "shawninjuly@gmail.com",
+      "email-cs-magic-mark": "mark@cs-magic.com",
+      "email-cs-magic-cto": "cto@cs-magic.com",
+      "blog": "https://markshawn.com",
+      "github": "github.com/markshawn2020",
+      "target": "期望：投资经理（硬科技方向）",
+      "star": "巨蟹座",
+      "MBTI": "INFP",
+      "birth-year": "1995",
+      "birth": "July 19, 1995"
+    }
+  },
+  "summary": [
+    "【痴迷编程】全栈工程师（精通py/ts/c++，跨前后端、算法、系统等多领域），开源贡献者（docusaurus, wechaty……），19岁时自主研发出一款量化交易策略并商业化，目前已持续整理开发笔记百万字，致力于在计算机科学领域添砖加瓦",
+    "【享受流浪】独自骑行川藏线（2021.7-8，3000+km，历多次生死劫难登顶珠峰大本营），独立数字游民（2022.3-6，跨7省13市）"
+  ],
+  "experience": {
+    "review": [
+      "2016年9月-2020年6月，毕业",
+      "2020年6月-8月，北京创业开发社团小程序",
+      "2020年9月-10月，摸鱼，申请华兴IBD、华为南研所",
+      "2020年11月-12月，考研，11月还开了一周的数据分析小灶",
+      "2021年1月-3月，学习C++，刷 leetcode，实现算法可视化网站，看《大汉帝国》，清华面试",
+      "2021年4月-5月，皇家小虎系统设计",
+      "2021年6月-7月，影创",
+      "2021年8月-9月，川藏线",
+      "2021年10月，摸鱼，看《钢铁是怎样炼成的》",
+      "2021年11月-12月，考研，看《硅谷》《马男》，开发马男拼图网站、CNKI翻译alfred插件",
+      "2022年1月，入职"
+    ],
+    "edu": {
+      "NAU": {
+        "title": "经济学学士",
+        "org": "南京审计大学",
+        "location": "南京",
+        "period": "2016.9 - 2020.6",
+        "detail": [
+          "课程：高等数学，线性代数，概率论，宏观经济学，微观经济学，会计学，计量金融学，博弈论……",
+          "自学：数据结构与算法，计算机组成原理，操作系统，软件工程，数据库，编译原理，机器学习……",
+          "荣誉：中国大学生自强之星（2020），校级十大年度人物（2020），校级十佳青年（2020）",
+          "竞赛：华为财务精英挑战赛校冠军（2019，180+队伍），华为软件精英挑战赛复赛前十（2019），全国大学生创青春创业比赛江苏省铜奖（2018）",
+          "社团：校金融科技协会创始人，证券投资俱乐部学术指导"
+        ]
+      },
+      "CUHKSZ": {
+        "title": "学术交流",
+        "org": "香港中文大学（深圳）",
+        "location": "深圳",
+        "period": "2019.1 - 2019.6",
+        "detail": [
+        ]
+      },
+      "UESTC": {
+        "org": "电子科技大学",
+        "title": "软件工程（辍学）",
+        "location": "成都",
+        "period": "2013.9 - 2014.10",
+        "detail": [
+          "因沉迷于滑板而退学，接下来开启了从计算机转金融再转计算机的十年……"
+        ]
+      }
+    },
+    "startup": {
+      "CS-Magic": {
+        "org": "CS魔法社",
+        "title": "创始人、CTO",
+        "period": "2023.4 - now",
+        "detail": [
+          "核心团队来自宾大、清华、港大、国美等全球知名高校，致力于基于AIGC技术赋能企业与个人",
+          "网站：https://cs-magic.com（海外），https://cs-magic.cn（国内）",
+          "价值观：「求真透明」「创意择优」「敏捷进步」"
+        ]
+      },
+      "jz": {
+        "org": "上海交大某创业公司的记账软件（已退出）",
+        "title": "全职研发",
+        "period": "2020.6"
+      }
+    },
+    "work": {
+      "CS-Magic": {
+        "org": "CS魔法社",
+        "title": "创始人、全栈工程师",
+        "period": "2023.4 - now",
+        "detail": [
+          "致力于基于AIGC技术赋能企业与个人，网站：https://cs-magic.com，口号：人人都是魔法师",
+          "目前已有产品：https://poketto.ai （gpt机器人，对接flowgpt等prompt社区，支持vector-search、共享API）",
+          "目前待研产品：镜界（基于gpt的笔记应用，支持原子化笔记、自动总结、分层索引）",
+          "主要技术栈：nextjs + trpc + prisma + langchain + radix-ui + tailwindcss"
+        ]
+      },
+      "arpara": {
+        "title": "高级 Framework / SLAM 研发工程师",
+        "org": "浙江露熙科技有限公司",
+        "location": "北京/杭州",
+        "period": "2021.6 - 2022.10",
+        "detail": [
+          "影创科技鸿鹄眼镜项目：带队2人，负责与影创科技合作的鸿鹄主机的系统研发 \\par 1. 从零到一在 App / Framework / Driver 层实现在鸿鹄主机上触摸同步控制眼镜内的操作系统 \\par 2. 实现在鸿鹄主机上控制从眼镜读取 3DOF 数据",
+          "理想汽车VR眼镜项目：与2位同事一起，负责向理想汽车的车机移入我们的VR系统 \\par 1. 独立负责 Android 7 到 11 的大版本迁移工作，重写了 OpenGL 的渲染 \\par 2. 独立负责核心算法 TimeWarp 在系统内的实现，以减轻用户戴上眼镜后的眩晕感",
+          "SLAM 算法自研项目：与一位同事共同负责公司 SLAM 算法（也是自动驾驶的核心技术）的自研 \\par 1. 系统梳理了2015 年到 2022 年学术界与工业界 SLAM 算法在无人机、VR/AR 眼镜上的理论研究与开源代码，并着手翻译了其中较为典型的几篇论文 \\par 2. 自学高翔博士的《SLAM十四讲》，基于 OpenCV 与机器学习分别实现了可见光（60+\\%准确度）、红外光（90+\\%准确度）下的手柄识别，基于 ORB、VINS-Fusion 等模型对我司数据进行调优"
+        ]
+      },
+      "ey": {
+        "org": "安永华明会计师事务所",
+        "title": "计算机辅助审计实习生",
+        "location": "上海",
+        "period": "2020.1 - 2020.3",
+        "detail": [
+          "项目开发：为实现XBRL文件的解析，使用一周时间快速掌握了XML技术，同时也查出了证监会规范中的多项错误并就这些错误与证监会进行了沟通反馈",
+          "财报审计：完成华安、 财通、 蜂巢三家基金公司百余支公募基金年审工作，保证数据准确性",
+          "SQL处理：利用 SQL 检验财务数据完整性，并使用优化主键等方式提高了数据的查询效率"
+        ]
+      },
+      "huaxing": {
+        "title": "FA实习生",
+        "org": "华兴资本",
+        "location": "上海",
+        "period": "2019.6 - 2019.9",
+        "detail": [
+          "商业分析能力：与团队一起着手研究了硅谷某可计算存储公司、杭州某网红牛奶公司等多家创业公司，平均花费一周时间搜集与阅读相关资料、咨询公司高管或员工，完成对公司商业模式的分析与市场规模的预测",
+          "数据采集能力：为保证项目组投资决策的及时高效，使用 scrapy、selenium、puppeteer 等完成特定数据的采集，独立搭建了网站方便同事下载，节省了项目组搜集信息的时间（2小时→10分钟），并给项目组设计了一份爬虫教学的PPT内部学习"
+        ]
+      }
+    },
+    "private-projects": {
+      "blog": {
+        "org": "个人博客：南川笔记",
+        "title": "独立开发者",
+        "period": "2022.8 - now",
+        "detail": [
+          "website: https://markshawn.com",
+          "source code (framework): https://github.com/MarkShawn2020/my-docusaurus",
+          "source code (website): https://github.com/MarkShawn2020/my-website",
+          "source code (document): https://github.com/markshawn2020/my-documents"
+        ]
+      },
+      "wechat-bot": {
+        "org": "微信研究",
+        "title": "独立开发者",
+        "period": "2020.9 - now",
+        "detail": [
+          "source code: https://github.com/MarkShawn2020/my-wechat-bot (微信机器人微信内部实现，2022.10)",
+          "source code: https://github.com/MarkShawn2020/my-wechat-bot (微信聊天记录加密破解, 2022.7 - 2022.8)",
+          "source code: https://github.com/MarkShawn2020/Wechaty-Socket-React (微信前端机器人，2020.9)"
+        ]
+      },
+      "hand-future": {
+        "org": "某清华好友H姐的公益活动：携手未来",
+        "title": "全栈工程师",
+        "period": "2023.3 - 2023.5",
+        "detail": [
+          "website: https://xieshou.cs-magic.cn",
+          "source code(frontend): https://github.com/m-archive-commercial/hand-future-frontend",
+          "source code(backend): https://github.com/m-archive-commercial/hand-future-backend",
+          "feat: 基于 threejs 的社交网络结点图实现"
+        ]
+      },
+      "social": {
+        "org": "某清华好友C的社交创业项目",
+        "title": "前端工程师",
+        "period": "2023.3",
+        "detail": [
+          "website: https://www.4fun.chat/"
+        ]
+      },
+      "shokichan": {
+        "org": "某字节好友L的笔记创业项目",
+        "title": "前端工程师",
+        "period": "2023.3",
+        "detail": [
+          "website: https://app.shokichan.com/"
+        ]
+      },
+      "ld-admin": {
+        "org": "美国某公司账户鉴权系统",
+        "title": "freelancer",
+        "period": "2023.3",
+        "detail": [
+          "source code (private): https://github.com/m-archive-commercial/ld-admin-*"
+        ]
+      },
+      "image2anki": {
+        "org": "考研书籍自动生成 anki 系统",
+        "period": "2022.11",
+        "title": "独立开发者",
+        "detail": [
+          "source code: https://github.com/MarkShawn2020/image2anki"
+        ]
+      },
+      "dnf": {
+        "org": "某清华好友S的游戏数据抓取项目",
+        "title": "freelancer",
+        "period": "2022.10",
+        "detail": [
+          "source code: https://github.com/m-archive-commercial/sjm-dnf-prices"
+        ]
+      },
+      "game": {
+        "org": "某清华好友L的游戏数据分析项目",
+        "title": "freelancer",
+        "period": "2022.8",
+        "detail": [
+          "source code: https://github.com/m-archive-commercial/lxw-game-data"
+        ]
+      },
+      "lwl": {
+        "org": "开源烂尾楼项目",
+        "title": "第一贡献者",
+        "period": "2022.8 - 2022.9",
+        "detail": [
+          "source code：https://github.com/WeNeedHome/SummaryOfLoanSuspension (20.6k stars)"
+        ]
+      },
+      "wechat-moment-cover": {
+        "org": "微信好友圈封面墙脚本",
+        "title": "独立开发者",
+        "period": "2022.7",
+        "detail": [
+          "source code: https://github.com/MarkShawn2020/wechat-moment-cover-wall"
+        ]
+      },
+      "gopro": {
+        "org": "GoPro 全天候自动 4K 延时摄影",
+        "period": "2022.6",
+        "title": "独立开发者",
+        "detail": [
+          "source code: https://github.com/MarkShawn2020/my-gopro",
+          "doc 1: https://www.markshawn.com/blog/2022/06/11/dev-gopro-1",
+          "doc 2: https://www.markshawn.com/blog/2022/06/16/dev-gopro-2"
+        ]
+      },
+      "hulu": {
+        "org": "某清华好友的小程序mock项目",
+        "title": "freelancer",
+        "period": "2022.5",
+        "detail": [
+          "source code: https://github.com/m-archive-commercial/wxmp-mock-huluxinan"
+        ]
+      },
+      "douban-rent": {
+        "org": "豆瓣小组租房筛选系统",
+        "title": "独立开发者",
+        "period": "2022.5",
+        "detail": [
+          "source code: https://github.com/MarkShawn2020/douban-renting"
+        ]
+      },
+      "hjxh-express": {
+        "org": "皇家小虎大数据比对系统",
+        "title": "freelancer",
+        "period": "2021.12 - 2022.2",
+        "detail": [
+          "source code (cmd): https://github.com/m-archive-commercial/hjxh-express-match-cmd",
+          "source code (gui): https://github.com/m-archive-commercial/hjxh-express-match-gui"
+        ]
+      },
+      "merge-images": {
+        "org": "图片拼接系统",
+        "title": "独立开发者",
+        "period": "2021.6 - 2021.12",
+        "detail": [
+          "source code (script): https://github.com/MarkShawn2020/merge-images-script (2021.6)",
+          "source code (fullstack): https://github.com/MarkShawn2020/merge-images-fullstack (2021.12)"
+        ]
+      },
+      "hjxh-data-center": {
+        "org": "皇家小虎数据中台",
+        "title": "freelance",
+        "period": "2021.5",
+        "detail": [
+          "source code (py): https://github.com/m-archive-commercial/hjxh-py-v2",
+          "source code (js): https://github.com/m-archive-commercial/hjxh-js-v2"
+        ]
+      },
+      "finance-ocr": {
+        "org": "某交大系记账软件创业项目",
+        "title": "freelancer",
+        "period": "2021.3 - 2021.5",
+        "detail": [
+          "source code (api): https://github.com/m-archive-commercial/finance-ocr-api",
+          "source code (gui): https://github.com/m-archive-commercial/finance-ocr-gui"
+        ]
+      },
+      "academy-station": {
+        "org": "上海某学术相关小程序",
+        "title": "freelancer",
+        "period": "2021.4",
+        "detail": [
+          "source code (admin): https://github.com/m-archive-commercial/academy-station-admin",
+          "source code (miniapp): https://github.com/m-archive-commercial/academy-station-taro",
+          "source code (backend): https://github.com/m-archive-commercial/academy-station-backend"
+        ]
+      },
+      "algo-visualization": {
+        "org": "一站式算法学习平台：可视化、游戏、文档、OJ系统",
+        "title": "独立开发者",
+        "period": "2021.2",
+        "detail": [
+          "source code: https://github.com/MarkShawn2020/mark-algo-visualization"
+        ]
+      },
+      "image-uploader": {
+        "org": "我的图床",
+        "title": "独立开发者",
+        "period": "2021.2",
+        "detail": [
+          "source code: https://github.com/MarkShawn2020/image-uploader"
+        ]
+      },
+      "codecraft-2020": {
+        "org": "华为软件精英挑战赛（2020）",
+        "title": "队长，使用 numpy 手撸机器学习框架",
+        "period": "2020.5",
+        "detail": [
+          "source code: https://github.com/MarkShawn2020/CodeCraft2020"
+        ]
+      },
+      "codecraft-2019": {
+        "org": "华为软件精英挑战赛（2019）",
+        "title": "队长，与官方判别器完全一致的智能发车系统",
+        "period": "2019.5",
+        "detail": [
+          "source code: https://github.com/MarkShawn2020/CodeCraft2019Rem"
+        ]
+      }
+    }
+  }
+}

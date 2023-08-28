@@ -1,0 +1,48 @@
+{
+  "parts": {
+    "special": [
+      "name",
+      "contactInfo"
+    ],
+    "simple": [
+      "summary"
+    ],
+    "period": [
+      "edu",
+      "work",
+      "private-projects",
+      "startup"
+    ]
+  },
+  "section_name_map": {
+    "edu": "教育经历",
+    "startup": "创业经历",
+    "work": "工作经历",
+    "open-source": "开源项目",
+    "private-projects": "项目经历",
+    "headline": "我是",
+    "summary": "个人总结"
+  },
+  "render_items": [
+    "basis.name:nickname",
+    "basis.contactInfo:email-cs-magic-mark,mobile,birth,target",
+    "summary",
+    //    # "experience.startup:CS-Magic",
+    "experience.work:CS-Magic,arpara,huaxing",
+    "experience.edu:NAU,CUHKSZ,UESTC",
+    "experience.private-projects:blog,wechat-bot,hand-future,social,shokichan,ld-admin,lwl,gopro,hjxh-express,hjxh-data-center,finance-ocr,academy-station,codecraft-2020,codecraft-2019"
+    //    # "image2anki,"
+    //    # "dnf,game,"
+    //    # "wechat-moment-cover,"
+    //    # "hulu,"
+    //    # "douban-rent,"
+    //    # "merge-images,"
+  ],
+  "overload": {
+    "basis": {
+      "contactInfo": {
+        "target": "DIE OR BIG"
+      }
+    }
+  }
+}

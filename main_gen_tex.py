@@ -7,7 +7,7 @@ import argparse
 import os
 
 from src.core import generateResumeTex
-from src.settings import PROJECT_DIR
+from src.lib.path import PROJECT_DIR
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
