@@ -1,6 +1,7 @@
 ## todo
 
-- [ ] 【重要】对 tex 相对路径生成还不太了解，导致 instance and class 混杂在一起，需要深入研究改善，否则还不好使用 gitignore 控制
+- [ ] config 里的一些东西需要进一步优化（低代码模式）
+- [ ] 对 tex 相对路径生成还不太了解，导致 instance and class 混杂在一起，需要深入研究改善，否则还不好使用 gitignore 控制
 
 ## usage
 
